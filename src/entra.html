@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>entrada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+  <div class= "identificacion">
+    <h2>Escríbenos tu nombre</h2>
+      <input type="name" id ="nombreChica">
+      <input type="button" id="botonNombre" value="click">
+  </div>
+             <div class="zonaoffset">
+               <p id="aparecedorNombre">¿Cúal es tu numero favorito?
+               </p>
+               <input type="number" id="numeroFav">
+             </div>
+             
+        <div class="zonaCifrado">
+             <h3>¡Genial!¿Empecemos?</h3>
+             <textarea type="textarea" id="cajaCifrado" class="cajaTexto1" placeholder="Escribe el mensaje que quieres cifrar(con mayúsculas)"></textarea>
+             <input type="button" id="botonCifrar" value="CIFRA">
+             <textarea type="textarea" id="aparecedorCaja1" class="cajaTexto2" placeholder="Tu mensaje cifrado"></textarea>
+          </div>
+          
+          <div class="zonaDescifrado">
+            <h3> ¿Quieres descifrar algo que escribiste antes?</h3>
+              <textarea type="textarea" id="cajaDescifrado" class="cajaTexto3" placeholder="Escribe lo que tenías cifrado(con mayúsculas)"></textarea>
+              <input type="button" id="botonDescifrar" value="DESCIFRA">
+              <textarea type="textarea" class="cajaTexto4" id="aparecedorCaja2" placeholder ="Tu mensaje original"></textarea>
+          </div>
+          <div>
+             <input type="button" value="Volver a Empezar">
+          </div>
+
+<script src="index.js"></script>
+
+</body>
+</html>

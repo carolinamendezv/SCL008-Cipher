@@ -1,1 +1,73 @@
-/* Acá va tu código */
+body{
+    background: url(globos.jpg);
+    background-size:100%;
+
+}
+
+h1{
+text-align: center;
+text-shadow: 5px 5px 5px rgb(247, 244, 246);
+color: rgb(170, 94, 117);
+font-size: 40px;
+margin: 2% 0% 0% 0%;
+}
+p{
+    color: brown;
+    font-size: 20px;
+    
+}
+.explicacion {
+   width: 400px;
+   border: 0px;
+   justify-content: center;
+   margin: 4% 31% 0% 35%;
+  
+   }
+   
+   .detalles p{
+    text-align: center;
+    color: rgb(76, 126, 146);
+    font-size: 19px;
+    margin: 1% 0% 0% 40%;
+ }
+
+   .identificacion{
+    margin: 0% 10% 0% 0% ;
+   }
+   .zonaoffset{
+
+    
+   }
+   .cajaTexto1{
+     width: 400px;
+     height: 200px;
+     border: 1px solid #333;
+     box-shadow: 8px 8px 5px #444;
+     padding: 8px 12px;
+     margin: 0% 0% 0% 10%;
+   }
+   .cajaTexto2{
+    width: 400px;
+    height: 200px;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 8px 12px;
+    margin: 0% 0% 0% 10%;
+   }
+   .cajaTexto3{
+    width: 400px;
+    height: 200px;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 8px 12px;
+    margin: 0% 0% 0% 10%;
+   }
+   .cajaTexto4{
+    width: 400px;
+    height: 200px;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 8px 12px;
+    margin: 0% 0% 0% 10%;
+   }
+   

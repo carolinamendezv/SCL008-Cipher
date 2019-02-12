@@ -5,19 +5,21 @@ document.getElementById("aparecedorNombre").innerHTML =`<h2>${nameChica}¿Cúal 
 })
 
 const botonCifrado = document.getElementById("botonCifrar");
-//const textDescifrar = document.getElementById("cajaDescifrado").value;
+
 
 botonCifrado.addEventListener("click",() =>{
  let textCifrar= document.getElementById("cajaCifrado").value;
  const offset = document.getElementById("numeroFav").value;
-  document.getElementById("aparecedorCaja1").innerHTML = `${textCifrar}  ${offset}`;
+let result =document.getElementById("aparecedorCaja1").innerHTML = window.cipher.encode(offset,textCifrar);
 })
 
 const botonDescifrado = document.getElementById("botonDescifrar");
+
 botonDescifrado.addEventListener("click",() =>{
 let textDescifrar = document.getElementById("cajaDescifrado").value;
 const offset = document.getElementById("numeroFav").value;
-console.log(textDescifrar + offset);
+let result =document.getElementById("aparecedorCaja2").innerHTML = window.cipher.decode(offset,textDescifrar);
+
 })
 
 

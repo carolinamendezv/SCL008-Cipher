@@ -1,13 +1,13 @@
 window.cipher ={
-  encode:(offset, text)=> {
+  encode:(offset, textCifrar)=> {
       //declarando variables
           let resultadoEncode = '';
        
-          for (let i=0; i < text.length; i++){
-              let asciiCode = text.charCodeAt(i);
+          for (let i=0; i < textCifrar.length; i++){
+              let asciiCode = textCifrar.charCodeAt(i);
        
               if (asciiCode >= 65 && asciiCode <= 90){
-                  asciiCode = (asciiCode - 65 + offset) % 26 + 65;
+                  asciiCode = (asciiCode - 65 + parseInt(offset)) % 26 + 65;
               }
            resultadoEncode +=String.fromCharCode(asciiCode);
           }
@@ -15,15 +15,15 @@ window.cipher ={
           return resultadoEncode;
        },
       
-  decode :(offset, text) => {
+  decode :(offset, textDescifrar) => {
        
           let resultadoDecode = '';
        
-          for (let i = 0; i < text.length; i++) {
+          for (let i = 0; i < textDescifrar.length; i++) {
        
-              let asciiCode = text.charCodeAt(i);
+              let asciiCode = textDescifrar.charCodeAt(i);
        if (asciiCode >= 65 && asciiCode <= 90) {
-                  asciiCode = ((asciiCode - 90 - offset) % 26 + 90)
+                  asciiCode = ((asciiCode - 90 - parseInt(offset)) % 26 + 90)
           }
           resultadoDecode+=String.fromCharCode(asciiCode);
        }

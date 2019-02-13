@@ -6,36 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>entrada</title>
     <link rel="stylesheet" href="style.css">
-</head>
-</head>
+  </head>
 <body>
   <div class= "identificacion">
-    <h2>Escríbenos tu nombre</h2>
+    <p class="parrafo1">Escribenos tu nombre</p>
       <input type="name" id ="nombreChica">
-      <input type="button" id="botonNombre" value="click">
+      <input type="button" id="botonNombre" class="botonEntra0" value="click">
   </div>
              <div class="zonaoffset">
-               <p id="aparecedorNombre">¿Cúal es tu numero favorito?
+               <p id="aparecedorNombre" class="parrafo2">¿Cúal es tu numero favorito?
                </p>
                <input type="number" id="numeroFav">
              </div>
              
         <div class="zonaCifrado">
-             <h3>¡Genial!¿Empecemos?</h3>
+             <p class="parrafo3">¡Genial!¿Empecemos?</p>
              <textarea type="textarea" id="cajaCifrado" class="cajaTexto1" placeholder="Escribe el mensaje que quieres cifrar(con mayúsculas)"></textarea>
-             <input type="button" id="botonCifrar" value="CIFRA">
+             <input type="button" id="botonCifrar" class="botonEntra1" value="CIFRA">
              <textarea type="textarea" id="aparecedorCaja1" class="cajaTexto2" placeholder="Tu mensaje cifrado"></textarea>
           </div>
           
           <div class="zonaDescifrado">
-            <h3> ¿Quieres descifrar algo que escribiste antes?</h3>
+            <p class="parrafo4"> ¿Quieres descifrar algo que escribiste antes?</p>
               <textarea type="textarea" id="cajaDescifrado" class="cajaTexto3" placeholder="Escribe lo que tenías cifrado(con mayúsculas)"></textarea>
-              <input type="button" id="botonDescifrar" value="DESCIFRA">
+              <input type="button" id="botonDescifrar" class="botonEntra2" value="DESCIFRA">
               <textarea type="textarea" class="cajaTexto4" id="aparecedorCaja2" placeholder ="Tu mensaje original"></textarea>
           </div>
-          <div>
-             <input type="button" value="Volver a Empezar">
-          </div>
+         
 
 <script src="index.js"></script>
 <script src ="cipher.js"></script>

@@ -1,73 +1,126 @@
 body{
-    background: url(globos.jpg);
+    background: url(enchulado.jpg);
     background-size:100%;
-
 }
 
-h1{
-text-align: center;
+.titulo{
+  text-align: center;
 text-shadow: 5px 5px 5px rgb(247, 244, 246);
 color: rgb(170, 94, 117);
-font-size: 40px;
-margin: 2% 0% 0% 0%;
+font-size: 85px;
+margin: 2% 0% 0% 12%;
+font-family: "Behind Green Eyes";
 }
+
 p{
-    color: brown;
-    font-size: 20px;
+   color: rgb(170, 94, 117);
+   font-size: 17px;
     
 }
 .explicacion {
    width: 400px;
-   border: 0px;
+   border: 2px;
    justify-content: center;
-   margin: 4% 31% 0% 35%;
-  
+   margin: 4% 31% 0% 40%;
+   }
+
+   .imagen{
+    width: 490px;
+    margin: -14% 8% 0% 6%;
    }
    
-   .detalles p{
+   .detalles {
     text-align: center;
-    color: rgb(76, 126, 146);
-    font-size: 19px;
-    margin: 1% 0% 0% 40%;
+    color: rgb(46, 96, 116);
+    font-size: 17px;
+    margin: -3% 85% 0% 0%;
  }
+
+ .botonEntra{
+   background: #9CADCE;
+   color: rgb(95, 39, 54);
+   font-size: 16;
+   padding: 15px 20px;
+   margin: 0% 0% 0% 0%;
+ }
+ p{
+  color: rgb(170, 94, 117);
+  font-size: 19px;
+ }
+
 
    .identificacion{
     margin: 0% 10% 0% 0% ;
    }
-   .zonaoffset{
 
-    
+   .botonEntra0{
+    background: #9CADCE;
+    color: rgb(95, 39, 54);
+    border: 1px solid #9CADCE;
+      border-radius:10px;
+    font-size: 16;
+    padding: 15px 20px;
+    margin: 0% 0% 0% 9%;
    }
+  
    .cajaTexto1{
+     background: #7EC4CF;
      width: 400px;
      height: 200px;
      border: 1px solid #333;
+     border-radius:20px;
      box-shadow: 8px 8px 5px #444;
      padding: 8px 12px;
-     margin: 0% 0% 0% 10%;
+     margin: 3% 0% 0% 5%;
    }
+.botonEntra1{
+  background: #9CADCE;
+   color: rgb(95, 39, 54);
+   border: 1px solid #9CADCE;
+     border-radius:10px;
+   font-size: 16;
+   padding: 15px 20px;
+   margin: 0% 0% 0% 9%;
+}
    .cajaTexto2{
+    background: #7EC4CF;
     width: 400px;
     height: 200px;
     border: 1px solid #333;
+    border-radius:20px;
     box-shadow: 8px 8px 5px #444;
     padding: 8px 12px;
     margin: 0% 0% 0% 10%;
    }
    .cajaTexto3{
+    background: #7EC4CF;
     width: 400px;
     height: 200px;
     border: 1px solid #333;
+    border-radius:20px;
     box-shadow: 8px 8px 5px #444;
     padding: 8px 12px;
-    margin: 0% 0% 0% 10%;
+    margin: 3% 0% 0% 5%;
    }
-   .cajaTexto4{
+   .botonEntra2{
+    background: #9CADCE;
+     color: rgb(95, 39, 54);
+     border: 1px solid #9CADCE;
+       border-radius:10px;
+     font-size: 16;
+     padding: 15px 20px;
+     margin: 0% 0% 0% 9%;
+  }
+    
+.cajaTexto4{
+    background: #7EC4CF;
     width: 400px;
     height: 200px;
     border: 1px solid #333;
+    border-radius:20px;
     box-shadow: 8px 8px 5px #444;
     padding: 8px 12px;
-    margin: 0% 0% 0% 10%;
+    margin: 0% 0% 0% 8%;
    }
+   
    

@@ -1,6 +1,6 @@
 window.cipher ={
   encode:(offset, textCifrar)=> {
-      //declarando variables
+    
           let resultadoEncode = '';
        
           for (let i=0; i < textCifrar.length; i++){

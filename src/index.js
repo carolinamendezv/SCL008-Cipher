@@ -10,7 +10,7 @@ const botonCifrado = document.getElementById("botonCifrar");
 botonCifrado.addEventListener("click",() =>{
  let textCifrar= document.getElementById("cajaCifrado").value;
  const offset = document.getElementById("numeroFav").value;
-let result =document.getElementById("aparecedorCaja1").innerHTML = window.cipher.encode(offset,textCifrar);
+document.getElementById("aparecedorCaja1").innerHTML = window.cipher.encode(offset,textCifrar);
 })
 
 const botonDescifrado = document.getElementById("botonDescifrar");
@@ -18,7 +18,7 @@ const botonDescifrado = document.getElementById("botonDescifrar");
 botonDescifrado.addEventListener("click",() =>{
 let textDescifrar = document.getElementById("cajaDescifrado").value;
 const offset = document.getElementById("numeroFav").value;
-let result =document.getElementById("aparecedorCaja2").innerHTML = window.cipher.decode(offset,textDescifrar);
+document.getElementById("aparecedorCaja2").innerHTML = window.cipher.decode(offset,textDescifrar);
 
 })
 

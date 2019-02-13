@@ -51,5 +51,3 @@ Mantuvimos el bosquejo inicial que consistía en dos pantallas ;
 
 ![](skech1.jpg)
 ![](skech2.jpg)
-
-

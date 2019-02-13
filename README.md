@@ -2,6 +2,11 @@
 
 ![](capturaPantalla.png)
 
+## Demo
+
+<https://carolinamendezv.github.io/SCL008-Cipher/src/index.html>
+
+
 ## Introducción
 **Mi Código Secreto** es una aplicación web que está orientado al sector
 más joven de nuestra comunidad, más especificamente; a nuestras adolescentes.
@@ -12,14 +17,6 @@ Fue en ese momento cuando se gestó por primera vez la idea de crear una platafo
 
 Repetimos que esto no es una aplicación donde puedan escribir sobre sus propias vidas, más bien es un lugar donde pueden generar un texto cifrado cuando no se sabe como ocultar cierta información de un par de ojos indeseados.
 
-## Diseño
-
-Desde un inicio generamos nuestro diseño pensando en nuestras usuarias, por ello decidimos que la plataforma debía ser sencilla, intuitiva y femenina.
-
-Mantuvimos el bosquejo inicial que consistía en dos pantallas ;
-
-![](skech1.jpg)
-![](skech2.jpg)
 
 ## Proceso de creación
 
@@ -35,7 +32,6 @@ Dedicamos bastante tienpo en generar la logíca del producto y la función que l
 
 Al finalizar hicimos una iteración con la imagen principal, personalizandola de acuerdo a nuestras usuarias.
 
-
 ## Modo de uso
 
 - La usuaria inicia leyendo de que trata la aplicación.
@@ -47,8 +43,13 @@ Al finalizar hicimos una iteración con la imagen principal, personalizandola de
 - Si desea descifrar debe escribir un texto cifrado en el formulario de abajo, y hacer click en boton "descifrar".
 - Finalmente el resultado de su contenido original aprecerá en el formulario que esté a su lado.
 
-## Demo
+## Diseño
 
-<https://carolinamendezv.github.io/SCL008-Cipher/src/index.html>
+Desde un inicio generamos nuestro diseño pensando en nuestras usuarias, por ello decidimos que la plataforma debía ser sencilla, intuitiva y femenina.
+
+Mantuvimos el bosquejo inicial que consistía en dos pantallas ;
+
+![](skech1.jpg)
+![](skech2.jpg)
 
 

@@ -63,7 +63,7 @@ p{
     margin: 0% 0% 0% 9%;
    }
   
-   .cajaTexto1{
+   .cajaTexto1, .cajaTexto2, .cajaTexto3, .cajaTexto4{
      background: #7EC4CF;
      width: 400px;
      height: 200px;
@@ -82,26 +82,8 @@ p{
    padding: 15px 20px;
    margin: 0% 0% 0% 9%;
 }
-   .cajaTexto2{
-    background: #7EC4CF;
-    width: 400px;
-    height: 200px;
-    border: 1px solid #333;
-    border-radius:20px;
-    box-shadow: 8px 8px 5px #444;
-    padding: 8px 12px;
-    margin: 0% 0% 0% 10%;
-   }
-   .cajaTexto3{
-    background: #7EC4CF;
-    width: 400px;
-    height: 200px;
-    border: 1px solid #333;
-    border-radius:20px;
-    box-shadow: 8px 8px 5px #444;
-    padding: 8px 12px;
-    margin: 3% 0% 0% 5%;
-   }
+   
+  
    .botonEntra2{
     background: #9CADCE;
      color: rgb(95, 39, 54);
@@ -112,15 +94,6 @@ p{
      margin: 0% 0% 0% 9%;
   }
     
-.cajaTexto4{
-    background: #7EC4CF;
-    width: 400px;
-    height: 200px;
-    border: 1px solid #333;
-    border-radius:20px;
-    box-shadow: 8px 8px 5px #444;
-    padding: 8px 12px;
-    margin: 0% 0% 0% 8%;
-   }
+
    
    
